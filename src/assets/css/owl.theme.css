@@ -70,8 +70,4 @@
 	border-radius: 30px;
 }
 
-/* preloading images */
-.owl-item.loading{
-	min-height: 150px;
-	background: url('../img/AjaxLoader.gif') no-repeat center center
-}
+
