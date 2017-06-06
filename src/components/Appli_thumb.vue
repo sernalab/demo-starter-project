@@ -1,5 +1,5 @@
 <template>
-  <div class="applicants">
+  <div class="thumbnails">
     <ul class="item">
       <li class="span">
           <div class="thumbnail">

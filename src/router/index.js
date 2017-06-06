@@ -4,6 +4,7 @@ import Home from '@/pages/Home'
 import About from '@/pages/About'
 import Profile from '@/pages/Profile'
 import Applicants from '@/pages/Applicants'
+import Projects from '@/pages/Projects'
 
 Vue.use(Router)
 
@@ -28,6 +29,11 @@ export default new Router({
       path: '/applicants',
       name: 'Applicants',
       component: Applicants
+    },
+    {
+      path: '/projects',
+      name: 'Projects',
+      component: Projects
     }
   ]
 })

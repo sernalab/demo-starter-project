@@ -252,11 +252,10 @@
   </div>
 </template>
 
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-<script src="../assets/js/jquery.fullPage.js"></script>
-<script src="../assets/css/colors.js">
-  
-</script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" type="text/javascript"></script>
+<script src="../assets/js/jquery.fullPage.js" type="text/javascript"></script>
+<script src="../assets/css/colors.js" type="text/javascript"></script>
+
 <script>
 export default {
   name: 'home',

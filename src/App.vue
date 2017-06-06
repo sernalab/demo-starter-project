@@ -5,6 +5,7 @@
       <router-link :to="{ name: 'About' }">About</router-link>
       <router-link :to="{ name: 'Profile' }">Profile</router-link>
       <router-link :to="{ name: 'Applicants' }">Applicants</router-link>
+      <router-link :to="{ name: 'Projects' }">Projects</router-link>
     </nav>
     <router-view></router-view>
   </div>
