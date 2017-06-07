@@ -252,10 +252,6 @@
   </div>
 </template>
 
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" type="text/javascript"></script>
-<script src="../assets/js/jquery.fullPage.js" type="text/javascript"></script>
-<script src="../assets/css/colors.js" type="text/javascript"></script>
-
 <script>
 export default {
   name: 'home',
@@ -273,5 +269,7 @@ export default {
 <style src="../assets/css/main-app/main.css"></style>
 
 <style src="../assets/css/main-app/thumbnails.css"></style>
+
+<!-- modal -->
 
 <style src="../assets/css/main-app/bootstrap.css"></style>

@@ -29,10 +29,3 @@ export default {
   }
 }
 </script>
-
-
-<style src="../assets/css/thumbnails.css" lang="css"></style>
-
-<style src="../assets/css/owl.theme.css" lang="css"></style>
-
-<style src="../assets/css/style.default.css"></style>

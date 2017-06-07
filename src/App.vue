@@ -1,12 +1,5 @@
 <template>
   <div id="app">
-    <nav class="nav">
-      <router-link :to="{ name: 'Home' }">Home</router-link>
-      <router-link :to="{ name: 'About' }">About</router-link>
-      <router-link :to="{ name: 'Profile' }">Profile</router-link>
-      <router-link :to="{ name: 'Applicants' }">Applicants</router-link>
-      <router-link :to="{ name: 'Projects' }">Projects</router-link>
-    </nav>
     <router-view></router-view>
   </div>
 </template>
@@ -16,3 +9,20 @@ export default {
   name: 'app'
 }
 </script>
+ 
+<style href="https://fonts.googleapis.com/css?family=Roboto:400,300,700,400italic"></style> 
+
+<!-- projects -->  
+<style src="./assets/css/font-awesome.min.css"></style>
+<style src="./assets/css/_bootstrap.min.css"></style>  
+<style src="./assets/css/owl.theme.css" lang="css"></style>
+<style src="./assets/css/style.default.css" lang="css"></style>
+
+<!-- profile -->
+
+<style src="./assets/css/owl.carousel.css"></style>
+<style src="./assets/css/profile.css"></style>
+
+<!-- applicants -->
+
+<style src="./assets/css/thumbnails.css"></style>
