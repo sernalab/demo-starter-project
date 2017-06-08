@@ -264,10 +264,10 @@ export default {
 }
 </script>
 
-<style src="../assets/css/main-app/examples.css" scoped></style>
+<style src="../../static/css/main-app/examples.css" scoped></style>
 
-<style src="../assets/css/main-app/main.css" scoped></style>
+<style src="../../static/css/main-app/main.css" scoped></style>
 
 <!-- modal -->
 
-<style src="../assets/css/main-app/bootstrap.css" scoped></style>
+<style src="../../static/css/main-app/bootstrap.css" scoped></style>

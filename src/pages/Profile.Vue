@@ -41,9 +41,9 @@
                                 </div>
                                 <div class="col-xs-12 col-sm-9 col-md-8 masonry-item">
                                     <div id="main-slider">
-                                        <div class="item"><img alt="" src="../assets/img/slider/3.jpg" class="img-responsive"></div>
-                                        <div class="item"><img alt="" src="../assets/img/slider/2.jpg" class="img-responsive"></div>
-                                        <div class="item"><img alt="" src="../assets/img/slider/1.jpg" class="img-responsive"></div>
+                                        <div class="item"><img alt="" src="" class="img-responsive"></div>
+                                        <div class="item"><img alt="" src="" class="img-responsive"></div>
+                                        <div class="item"><img alt="" src="" class="img-responsive"></div>
                                     </div>
                                     <div class="box-masonry header-profile">
                                         <div class="box-masonry-text">
@@ -119,4 +119,6 @@ export default {
     }
 }
 </script>
+
+<style src="../../static/css/owl.carousel.css"></style>
 

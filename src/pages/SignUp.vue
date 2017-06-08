@@ -129,4 +129,4 @@ export default{
 };
 </script>
 
-<style src="../assets/css/signup-form.css"></style>
+<style src="../../static/css/signup-form.css"></style>
