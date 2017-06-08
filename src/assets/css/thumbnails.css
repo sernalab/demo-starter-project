@@ -32,6 +32,11 @@ ul {
     width: 240px;
 }
 
+.thumbnails-box {
+    display: flex;
+    flex-wrap: wrap;
+}
+
 .header img {
     border-radius: 80px;
     border: 7px solid #d8dbdb;

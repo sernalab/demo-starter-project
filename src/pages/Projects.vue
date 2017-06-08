@@ -11,7 +11,7 @@
                 </div>
                 <div class="grid">
                   <div class="row">
-                    <allProjects></allProjects>
+                    <allProjects v-for="project in users" :project="project"></allProjects>
                   </div>
                 </div>
               </div>
@@ -24,12 +24,18 @@
 <script>
 import asideMenu from '../components/Aside_Menu'
 import allProjects from '../components/Project_thumb'
+import { mapState } from 'Vuex'
 
 export default {
   name: 'projects',
   data () {
     return {
     }
+  },
+  computed:{
+    ...mapState([
+      'users'
+      ])
   },
   components: {
     asideMenu,

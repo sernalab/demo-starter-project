@@ -60,12 +60,14 @@ body{
 }
 h1{
 	font-size: 6em;
+	color: #555555;
 }
 h1>span{
-	color: #009ee2;
+	color: #ef5285;
 }
 p{
 	font-size: 2em;
+	color: #555555;
 }
 .intro p{
 	width: 50%;

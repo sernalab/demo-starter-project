@@ -443,7 +443,7 @@ SIDEBAR + RIGHT COLUMN
     color: #999999;
 }
 
-.sidebar-menu li.active a {
+.sidebar-menu li a.router-link-exact-active {
     color: #ef5285;
     font-weight: bold;
 }
@@ -799,6 +799,10 @@ COPYRIGHT
 .copyright {
     color: #999999;
     font-size: 13px;
+}
+
+p.credit {
+    font-size: 1em;
 }
 
 .copyright p.credit {

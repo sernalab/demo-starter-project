@@ -1,15 +1,14 @@
 <template>
   <div class="home">
      <ul id="menu">
-        <li data-menuanchor="firstPage" class="active"><a href="#firstPage">Projects</a></li>
-        <li data-menuanchor="secondPage" class="students-menu"><a href="#secondPage">Applicants</a></li>
-        <li data-menuanchor="3rdPage" class="companies-menu"><a href="#3rdPage">Companies</a></li>
-    </ul>
-    <ul id="menu">
+        <!-- <li data-menuanchor="firstPage" ><a href="#firstPage">Projects</a></li>
+        <li data-menuanchor="secondPage" class="students-menu"><a href="#/applicants">Applicants</a></li> -->
+        <!-- <li data-menuanchor="3rdPage" class="companies-menu"><a href="#3rdPage">Companies</a></li> -->
         <li class="right-menu">
-            <a data-toggle="modal" data-target="#myModal"><i class="fa fa-sign-in" aria-hidden="true"></i>Alumni login</a>
+            <a class="open-login" data-toggle="modal" data-target="#myModal"><i class="fa fa-sign-in" aria-hidden="true"></i>Alumni login</a>
         </li>
     </ul>
+
     <!-- Login -->
     <!-- Modal -->
     <div class="modal" id="myModal" role="dialog">
@@ -19,6 +18,7 @@
                 <div class="modal-header">
                     <button type="button" class="close" data-dismiss="modal">&times;</button>
                     <h4 class="modal-title">Sign in</h4>
+                    <h4 class="modal-title"><a href="#/SignUp">Sign Up</a></h4>
                 </div>
                 <div class="modal-body">
                     <div class="container-login">
@@ -36,16 +36,18 @@
     <!-- Start website -->
     <div id="fullpage">
         <!-- First section -->
-        <div class="section " id="section0">
+        <div class="section">
             <h1><span>SKYLAB</span>PROJECTS</h1>
             <p>A RECRUITMENT SITE OF DEVELOPERS</p>
-            <div class="main-button">
-                <button class="go-projects"><a href="projects.html" target="_blank">See all projects</a></button>
+            <div class="main-buttons">
+                <i class="fa-arrow-right"></i><router-link to="/projects">Projects</router-link>
+                <i class="fa-arrow-right"></i><router-link to="/applicants">Applicants</router-link>
+                <i class="fa-arrow-right"></i><router-link to="/SignUp">Alumni sign Up</router-link>
             </div>
         </div>
         <!-- End section 1 -->
         <!-- Second section APPLICANTS -->
-        <div class="section" id="section1">
+       <!--  <div class="section" id="section1">
             <div class="slide" id="slide2">
                 <h1 class="apply">APPLICANTS</h1>
                 <div class="container first-container">
@@ -239,15 +241,15 @@
                     </ul>
                 </div>
             </div>
-        </div>
+        </div> -->
         <!-- End second section  -->
         <!-- Last section -->
-        <div class="section" id="section2">
+     <!--    <div class="section" id="section2">
             <div class="intro">
                 <h1>Companies</h1>
                 <p></p>
             </div>
-        </div>
+        </div> -->
     </div>
   </div>
 </template>
@@ -262,14 +264,10 @@ export default {
 }
 </script>
 
-<style src="../assets/css/main-app/jquery.fullPage.css"></style>
+<style src="../assets/css/main-app/examples.css" scoped></style>
 
-<style src="../assets/css/main-app/examples.css"></style>
-
-<style src="../assets/css/main-app/main.css"></style>
-
-<style src="../assets/css/main-app/thumbnails.css"></style>
+<style src="../assets/css/main-app/main.css" scoped></style>
 
 <!-- modal -->
 
-<style src="../assets/css/main-app/bootstrap.css"></style>
+<style src="../assets/css/main-app/bootstrap.css" scoped></style>

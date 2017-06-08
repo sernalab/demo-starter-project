@@ -24,5 +24,4 @@ export default {
 <style src="./assets/css/profile.css"></style>
 
 <!-- applicants -->
-
 <style src="./assets/css/thumbnails.css"></style>

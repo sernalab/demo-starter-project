@@ -4,7 +4,7 @@
       <div class="box-masonry">
         <a href="#/profile" title="" class="box-masonry-image with-hover-overlay with-hover-icon"><img src="../assets/img/portfolio/a4-paper.jpg" alt="" class="img-responsive"></a>
         <div class="box-masonry-text">
-          <h4> <a href="profile.html">Name of the work 2</a></h4>
+          <h4> <a href="profile.html">{{ project.name }}</a></h4>
           <div class="box-masonry-desription">
               <p> When she reached the first hills of the Italic Mountains, she had a last view back on the skyline of her hometown Bookmarksgrove, the headline of Alphabet Village and the subline of her own road, the Line Lane.</p>
           </div>
@@ -21,6 +21,9 @@ export default {
   data () {
     return {
     }
-  }
+  },
+  props: [
+  'project'
+  ]
 }
 </script>
