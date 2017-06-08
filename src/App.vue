@@ -13,14 +13,14 @@ export default {
 <style href="https://fonts.googleapis.com/css?family=Roboto:400,300,700,400italic"></style>
 
 <!-- projects -->
-<style src="./assets/css/font-awesome.min.css"></style>
-<style src="./assets/css/owl.theme.css" lang="css"></style>
-<style src="./assets/css/style.default.css" lang="css"></style>
+<style src="/static/js/font-awesome.min.css"></style>
+<style src="/static/js/owl.theme.css" lang="css"></style>
+<style src="/static/js/style.default.css" lang="css"></style>
 
 <!-- profile -->
 
-<style src="./assets/css/owl.carousel.css"></style>
-<style src="./assets/css/profile.css"></style>
+<style src="/static/js/owl.carousel.css"></style>
+<style src="/static/js/profile.css"></style>
 
 <!-- applicants -->
-<style src="./assets/css/thumbnails.css"></style>
+<style src="/static/js/thumbnails.css"></style>
