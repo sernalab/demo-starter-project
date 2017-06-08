@@ -4,7 +4,7 @@ $(function () {
 
     offCanvas();
     lightbox();
-    carousels();
+    //carousels();
     utils();
     demo();
 

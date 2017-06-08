@@ -5,10 +5,12 @@
   "author": "JuanMa Garrido <JuanMa.Garrido@gmail.com>",
   "private": true,
   "scripts": {
-    "dev": "node build/dev-server.js",
-    "start": "node build/dev-server.js",
-    "build": "node build/build.js",
-    "lint": "eslint --ext .js,.vue src"
+    "start": "node server/app",
+    "dev": "nodemon server/app",
+    "dev:vue": "node build/dev-server.js",
+    "start:vue": "node build/dev-server.js",
+    "build:vue": "node build/build.js",
+    "lint:vue": "eslint --ext .js,.vue src"
   },
   "dependencies": {
     "bootstrap": "^3.3.7",

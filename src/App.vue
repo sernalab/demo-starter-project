@@ -9,12 +9,11 @@ export default {
   name: 'app'
 }
 </script>
- 
-<style href="https://fonts.googleapis.com/css?family=Roboto:400,300,700,400italic"></style> 
 
-<!-- projects -->  
+<style href="https://fonts.googleapis.com/css?family=Roboto:400,300,700,400italic"></style>
+
+<!-- projects -->
 <style src="./assets/css/font-awesome.min.css"></style>
-<style src="./assets/css/_bootstrap.min.css"></style>  
 <style src="./assets/css/owl.theme.css" lang="css"></style>
 <style src="./assets/css/style.default.css" lang="css"></style>
 

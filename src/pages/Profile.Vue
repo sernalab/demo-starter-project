@@ -3,9 +3,9 @@
         <div id="all">
             <div class="container-fluid">
                 <div class="row row-offcanvas row-offcanvas-left">
-                   
+
                     <asideMenu></asideMenu>
-                    
+
                     <div class="col-xs-12 col-sm-8 col-md-9 content-column">
                         <div class="grid">
                             <div class="row">
@@ -91,6 +91,8 @@
     </div>
 </template>
 
+
+
 <script>
 import asideMenu from '../components/Aside_Menu'
 
@@ -113,7 +115,8 @@ export default {
     singleItem: true,
     afterInit: ''
     });
-   
+
     }
 }
 </script>
+
