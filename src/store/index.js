@@ -5,22 +5,23 @@ Vue.use(Vuex)
 
 const store = new Vuex.Store({
   state: {
-  	users: [{
+  	projects: [{
       id: 1,
-      name: "John Doe",
-      password: "J0hnD03!x4",
-      skills: ["Javascript", "VueJS"],
-      email: "john.doe@gmail.com",
-      status: true
-    }]
+      project_name: "Skylab Projects",
+      description: "Library of projects from Skylab",
+      img: "http://i.imgur.com/busAqYz.png",
+    }],
   },
   getters: {
   },
   mutations: {
-	addUser (state, user){
-		state.users.push(user)
-	}
-  },
+  	addProject (state, project){
+  		state.projects.push(project)
+  	 }
+    },
+    addUser (state, user){
+      state.users.push(user)
+    },
   actions: {
   }
 })

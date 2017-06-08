@@ -34,12 +34,13 @@ export default{
 						name: "John Doe",
 						password: "J0hnD03!x4",
 						promotion: ["2016-04", "2016-07", "2016-9",  "2017-01", "2017-04", "2017-07"],
-						image: [""],
 						made: ["Javascript", "VueJS"],
 						email: "john.doe@gmail.com",
+						project_name: "Skylab Projects",
+						description: "Library of projects from Skylab",
+						img: "http://i.imgur.com/busAqYz.png",
 						working: true
 					},
-				
 					schema: {
 						fields: [{
 							type: "input",
@@ -84,11 +85,26 @@ export default{
 						},
 						{
 							type: "input",
-							inputType: "email",
+							inputType: "text",
 							label: "Project Name",
 							model: "project_name",
 							placeholder: "Insert Name"
-						},{
+						},
+						{
+							type: "input",
+							inputType: "text",
+							label: "Description",
+							model: "description",
+							placeholder: "Describe your project"
+						},
+						{
+							type: "input",
+							inputType: "text",
+							label: "Home Cover",
+							model: "img",
+							placeholder: "Insert HOME img from URL"
+						},
+						{
 							type: "checkbox",
 							label: "Working",
 							model: "working",
@@ -103,10 +119,10 @@ export default{
 		},
 		methods: {
 			...mapMutations([
-				'addUser'
+				'addProject'
 			]), 
 			submit() {
-				this.addUser(this.model)
+				this.addProject(this.model)
 				this.$router.push('/projects')
 			}
 		}  

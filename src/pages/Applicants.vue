@@ -30,6 +30,9 @@ export default {
   components: {
     thumbnails,
     asideMenu
-  }
+  },
+  props: [
+    'users'
+  ]
 }
 </script>

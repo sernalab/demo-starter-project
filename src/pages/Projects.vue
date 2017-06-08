@@ -11,7 +11,7 @@
                 </div>
                 <div class="grid">
                   <div class="row">
-                    <allProjects v-for="project in users" :project="project"></allProjects>
+                    <allProjects v-for="project in projects" :project="project"></allProjects>
                   </div>
                 </div>
               </div>
@@ -34,7 +34,7 @@ export default {
   },
   computed:{
     ...mapState([
-      'users'
+      'projects'
       ])
   },
   components: {
